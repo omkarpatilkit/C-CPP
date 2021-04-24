@@ -36,10 +36,16 @@ public:
         cout << "Date is: " << day << '/' << month << '/' << year;
         cout << '\n';
     }
+
+    int getDay()
+    {
+        return day;
+    }
 };
 
 int main()
 {
+    int d1day, d2day;
     Entry E1;
     E1.accept();
     E1.printname();
@@ -47,5 +53,14 @@ int main()
     Date d1;
     d1.SetDate(2, 3, 21);
     d1.printDate();
+    d1day = d1.getDay();
+    cout << d1day << '\n';
+
+    Date d2;
+    d2.SetDate(3, 4, 21);
+    d2.printDate();
+    d2day = d2.getDay();
+    cout << d2day << '\n';
+
     return 0;
 }
