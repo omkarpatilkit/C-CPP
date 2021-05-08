@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+#include <string>
 using namespace std;
 
 class Car
@@ -46,10 +47,12 @@ public:
 class CarsInfo : public Car
 {
 public:
+    string Name = "BMW";
     void Allinfos()
     {
         printf("%s ", c);
         cout << "Price is " << p << '\n';
+        cout << "I love " << Name << '\n';
     }
 };
 
