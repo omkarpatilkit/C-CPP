@@ -7,7 +7,7 @@ float Divide(int a, int b)
 
     if (a < b)
     {
-        return -1;
+        return -1; // to return -1
     }
     else
     {
@@ -29,7 +29,6 @@ int main()
 
     iRet = Divide(iVal1, iVal2);
     printf("the division is: %.2f", iRet);
-    
 
     return 0;
 }
