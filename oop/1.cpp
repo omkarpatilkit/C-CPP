@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    Car m800;
+    Car m800 ;
 
     m800.fillFuel();
     m800.carStatus();
