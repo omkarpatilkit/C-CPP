@@ -1,17 +1,15 @@
-#include <iostream> 
+#include <iostream>
 using namespace std;
 #include "car.h"
 
+int main()
+{
 
-int main(){
+    Car m800;
 
-    Car m800 ;
-
-    m800.fillFul();
-    m800.carStaus();
-
-
-
+    m800.fillFuel();
+    m800.carStatus();
+    // changes made ;
 
     return 0;
 }

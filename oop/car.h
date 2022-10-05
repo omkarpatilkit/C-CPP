@@ -7,11 +7,11 @@ int passengers =0;
 
 public: 
 
-void fillFul(){
+void fillFuel(){
 fuel = 100 ;
 }
 
-void carStaus(){
+void carStatus(){
     cout << "Fuel: " << fuel << "\n";
     cout << "Passengers: " << passengers << "\n";
 }
